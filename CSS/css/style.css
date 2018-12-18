@@ -1,0 +1,55 @@
+#body {
+    background-image: url("../images/img.jpg");
+    /*
+        background-size: cover;
+        background-repeat: no-repeat;
+    */
+}
+
+#head1 {
+    color: gold;
+    text-decoration: underline;
+}
+
+#par1 {
+    font-size: 23px;
+    color: green;
+}
+
+#head3 {
+    color: white;
+    font-size: 28px;
+}
+
+ul li {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+table thead th {
+    font-size: 24px;
+}
+
+table tbody tr td {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+span {
+    color: gold;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#par2 {
+    font-size: 19px
+}
+
+#form {
+    text-decoration: none;
+    font-size: 18px;
+    color: red
+}
