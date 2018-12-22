@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(155, 252, 152);
+}
+
+#perEmail {
+    text-decoration: none;
+    color: white;
+}
+
+#perEmail:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+table {
+    margin-bottom: 20px;
+    font-size: 22px;
+    margin-left: 250px;
+    margin-top: 3%;
+    width: 80%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse
+}
+
+th,
+td {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%
+}
+
+label {
+    font-size: 23px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-left: 250px;
+    margin-top: 5%;
+    color: white;
+}
+
+button {
+    margin-left: 10px;
+}
+
+h3:hover {
+    font-size: 30px;
+    color: green;
+    cursor: zoom-out
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 40px;
+    color: chocolate;
+}
+
+h1:hover {
+    font-size: 48px;
+    margin-top: 45px;
+    color: rebeccapurple;
+    cursor: zoom-in
+}
+
+form {
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+input[type="text"] {
+    border: 1px red solid;
+    height: 30px;
+    border-radius: 15%
+}
+
+input[type="text"]::placeholder {
+    color: green
+}
+
+input[type="number"] {
+    border: 1px red solid;
+    height: 30px;
+    border-radius: 15%
+}
+
+input[type="number"]::placeholder {
+    color: red
+}
+
+input[type="email"] {
+    border: 1px red solid;
+    height: 30px;
+    border-radius: 15%
+}
+
+input[type="email"]::placeholder {
+    color: peru
+}
+
+input[type="email"]:focus {
+    color: white
+}
+
+input[type="date"] {
+    15 border: 1px red solid;
+    height: 30px;
+    border-radius: 15%
+}
+
+
+/*button treba stajlirat*/
