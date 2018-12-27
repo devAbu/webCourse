@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/registracija.css">
+    <link rel="shortcut icon" href="images/ab3dicon.ico" type="image/x-icon">
+    <meta name="keywords" content="3D, AB3D, 3D print, 3D sarajevo, 3D printer">
+    <title>AB3D</title>
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <a href="http://www.ab3dlabs.com/" target="_blank">
+            <li><img src="images/logo.png" alt="logo" class="logo"></li>
+        </a>
+        <li><a href="#contact" class="left">Contact US</a></li>
+        <li><a href="#register" class="left">Course Register</a></li>
+        <li><a href="#about" class="left">About</a></li>
+        <li><a href="#3D" class="left">3D</a></li>
+        <li><a href="#home" class="left">Home</a></li>
+    </ul>
+
+    <h1>Registracija</h1>
+
+    <form action="">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Unesite svoje ime</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Vase ime" required></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Unesite Vas broj godina</label></td>
+                    <td><input type="number" id="age" name="age" placeholder="Do 15 Godina" max="15" required> </td>
+                </tr>
+                <tr>
+                    <td><label for="birth">Unesite datum rodjenja</label></td>
+                    <td><input type="date" id="birth" name="birth" required></td>
+                </tr>
+                <tr>
+                    <td><label for="school">Skola</label></td>
+                    <td><input type="text" id="school" name="school" placeholder="vasa skola" required></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Kontakt telefon</label></td>
+                    <td><input type="number" name="number" id="number" placeholder="Unesite broj na sljedeci nacin: +387 broj telefona"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender" class="max">Pol</label></td>
+                    <td><input type="radio" name="gender" id="Musko" class="max">Musko
+                        <input type="radio" name="gender" id="Zensko" class="max">Zensko</td>
+                </tr>
+                <tr>
+                    <td><label for="3d">Dali ste prije imali iskustva sa 3D</label></td>
+                    <td><input type="radio" name="3d" id="da" class="max">DA
+                        <input type="radio" name="3d" id="NE" class="max">NE</td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit">submit</button>
+        <button type="reset">resetuj</button>
+    </form>
+
+</body>
+
+</html>

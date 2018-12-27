@@ -1,0 +1,73 @@
+body {
+    background-color: #f2f2f2
+}
+
+h1 {
+    text-align: center
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: none;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.692)
+}
+
+.left {
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #b3b3b363;
+}
+
+.logo {
+    max-height: 38px;
+    float: left;
+}
+
+table {
+    margin-left: 5%;
+    width: 50%
+}
+
+table,
+td {
+    border-collapse: collapse;
+    border: 1px solid black
+}
+
+input {
+    width: 99%;
+    background-color: transparent;
+    font-family: inherit;
+    box-decoration-break: clone
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.753)
+}
+
+label {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.max {
+    max-width: 17px;
+}
+
+.desno {
+    margin-right: 5%;
+}
