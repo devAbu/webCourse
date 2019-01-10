@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS drugo predavanje</title>
+</head>
+
+<body>
+
+    <div id="test">pocetak</div>
+    <div id="test2"></div>
+
+    <div id="zadaca"></div>
+    <div id="zadaca2"></div>
+
+    <button onclick="ifFun()">IF</button>
+    <button onclick="ifElseFun()">IF-Else</button>
+    <button onclick="forFun()">For loop</button>
+    <button onclick="whileFun()">While loop</button>
+
+    <script>
+        /* IF STATEMENT */
+        function ifFun() {
+            var num1 = 5
+            var num2 = 3
+
+            var result = num1 + num2
+
+            if (result <= 4) {
+                document.getElementById('test').innerHTML = "Malo " + result
+            }
+
+            if (result <= 8) {
+                document.getElementById('test').innerHTML = "Srednje " + result
+            }
+
+            if (result > 8) {
+                document.getElementById('test').innerHTML = "Puno " + result
+            }
+        }
+    </script>
+    <script>
+        /* IF-ELSE STATEMENT */
+        function ifElseFun() {
+            var num1 = 5
+            var num2 = 3
+
+            var result = num1 - num2
+
+            if (result <= 4) {
+                document.getElementById('test').innerHTML = "Malo " + result
+            } else if (result <= 8) {
+                document.getElementById('test').innerHTML = "Srednje " + result
+            } else {
+                document.getElementById('test').innerHTML = "Puno " + result
+            }
+        }
+    </script>
+    <script>
+        /* FOR LOOP */
+        function forFun() {
+            var x = 5;
+
+            for (var i = 0; i < 5; i++) {
+                document.getElementById('test').innerHTML = i
+            }
+
+            var person = {
+                first: "abu",
+                last: "almo",
+                age: 21
+            };
+
+            var text = " ";
+            var x;
+            for (x in person) {
+                text += person[x];
+                /* document.getElementById('test2').innerHTML = text */
+                document.getElementById('test2').innerHTML = person.first + " " + person.last + " has " + person.age
+
+            }
+        }
+    </script>
+
+    <script>
+        /* WHILE LOOP */
+        function whileFun() {
+            var x = 5;
+            var i = 0;
+            while (i < 5) {
+                document.getElementById('test').innerHTML = i
+                i++
+            }
+        }
+    </script>
+
+    <!-- TODO: URADIT BREAK i CONTINUE -->
+
+    <!-- COUNT DOWN -->
+    <script>
+        var max = 10;
+        var min = setInterval(function() {
+            document.getElementById("zadaca").innerHTML = 10 - --max;
+            if (max <= 0)
+                clearInterval(min);
+        }, 500);
+    </script>
+
+    <script>
+        var min2 = 0;
+        var max2 = setInterval(function() {
+            document.getElementById("zadaca2").innerHTML = 0 + ++min2;
+            if (min2 >= 10)
+                clearInterval(max2);
+        }, 500);
+    </script>
+
+</body>
+
+</html>
